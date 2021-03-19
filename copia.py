@@ -4,7 +4,7 @@ toke = input("Digite seu token: ")
 ler = len(toke)
 id = input("Digite o id do sv a ser copiado: ")
 sv = input("Digite o sv a ser colado: ")
-banco = sqlite3.connect('spam.db')
+banco = sqlite3.connect('copia.db')
 if ler <= 7:
         print("TOKEN INVALIDO")
         exit()
