@@ -1,6 +1,6 @@
 import sqlite3
 
-banco = sqlite3.connect('spam.db')
+banco = sqlite3.connect('copia.db')
 cursor = banco.cursor()
 while True:
         senha = input("Digite a senha: ")
